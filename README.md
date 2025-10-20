@@ -7,8 +7,8 @@ a Chinese medical lip-reading app for assisting people who are unable to speak n
 
 
 ### Traing model on CMLR
-- Use the original pre-trained [AV-HuBERT](https://facebookresearch.github.io/av_hubert) encoder as the model backbone.
-- Convert the weights to pytorch version using [this](https://github.com/kyushusouth/avhubert).
+- Use the pre-trained [AV-HuBERT](https://facebookresearch.github.io/av_hubert) encoder as the model backbone.
+- Convert the original weights to pytorch version using [this](https://github.com/kyushusouth/avhubert).
 - Translate Chinese characters into pinyin using [Hanzi2Pinyin](https://github.com/mozillazg/python-pinyin).
 - [Train]: `python avtrain.py 0 train`.
 - Translate pinyin sequence into Chinese using [QWen3](https://github.com/QwenLM/Qwen3) LLM (online API).
@@ -20,6 +20,6 @@ a Chinese medical lip-reading app for assisting people who are unable to speak n
 
 
 ### Start the service
-- `python server.py` to start the host-side server (ip address: 0.0.0.0).
-- The mobile phone connects to the host service by setting the right ip.
-- Record the frontal talking face.
+- `python server.py` to start the host-side server (IP address: 0.0.0.0).
+- The mobile-side connects to the service by setting the right host IP.
+- Record the frontal talking face for recognition.
