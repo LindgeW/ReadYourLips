@@ -1,0 +1,10 @@
+checkpoints/vsrapp4/iter_41.pt
+checkpoints/vsrapp4/iter_42.pt
+checkpoints/vsrapp4/iter_43.pt
+checkpoints/vsrapp4/iter_44.pt
+checkpoints/vsrapp4/iter_45.pt
+checkpoints/vsrapp4/iter_46.pt
+checkpoints/vsrapp4/iter_47.pt
+checkpoints/vsrapp4/iter_48.pt
+checkpoints/vsrapp4/iter_49.pt
+checkpoints/vsrapp4/iter_50.pt
