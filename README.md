@@ -20,7 +20,7 @@ a Chinese medical lip-reading app for assisting people who are unable to speak n
 - [Adapt]:  `python avtrain.py 0 adapt` to continue fine-tuning the pre-trained model in the prior step.
 
 
-### Start the service
+### Start a server
 - `python server.py` to start the host-side server (IP address: 0.0.0.0).
 - The mobile-side connects to the service by setting the right host IP (under the same LAN).
 - Record the frontal talking face for lip-reading.
