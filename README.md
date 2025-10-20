@@ -7,7 +7,7 @@ a Chinese medical lip-reading app for assisting people who are unable to speak n
 
 
 ### Training on CMLR
-- Use the pre-trained [AV-HuBERT-en](https://facebookresearch.github.io/av_hubert)(BASE) encoder as the model backbone.
+- Use the pre-trained [AV-HuBERT-en](https://facebookresearch.github.io/av_hubert) (BASE) encoder as the model backbone along with a CTC/attention decoder.
 - Convert the original weights to pytorch version using [this](https://github.com/kyushusouth/avhubert).
 - Translate Chinese characters into pinyin with tone using [Hanzi2Pinyin](https://github.com/mozillazg/python-pinyin) (building pinyin vocab).
 - [Train]: `python avtrain.py 0 train` on the news benchmark CMLR.
