@@ -15,7 +15,7 @@ a Chinese medical lip-reading app for assisting people who are unable to speak n
 
 
 ### Fine-tuning on healthcare data
-- Collect the healthcare video data by your mobile phone.
+- Collect the healthcare video data by your mobile phone (More Is Better).
 - Preprocess the video data into 88x88 gray-scale lip-cropped images.
 - [Adapt]:  `python avtrain.py 0 adapt` to continue fine-tuning the pre-trained model in the prior step.
 
